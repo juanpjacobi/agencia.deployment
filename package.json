@@ -1,0 +1,24 @@
+{
+  "name": "55-agenciasviajesnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "author": "jacobi juan pablo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "git": "^0.1.5",
+    "mysql2": "^2.3.3",
+    "pug": "^3.0.2",
+    "sequelize": "^6.12.0-beta.3"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
